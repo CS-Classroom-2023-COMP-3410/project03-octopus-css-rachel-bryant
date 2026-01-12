@@ -1,0 +1,123 @@
+/* NOTE: there's only one of each header element except for h2 */
+
+body {
+    margin:0px;
+    font-family:Arial;
+    background:#F1F0F0;
+}
+
+/* header styling */
+#header {
+    text-align:center;
+    background:#0074E5;
+    padding:1px;
+    color:#FFFFFF;
+}
+#header > h1 {
+    margin-bottom:0px;
+}
+#header > p {
+    margin-top:0px;
+    font-style:italic;
+}
+
+/* main content styling */
+#main-content {
+    margin-left:15px;
+}
+
+/* moving amazing facts header closer to previous paragraph */
+/* uppercase "introduction" and "amazing facts" */
+#intro {
+    text-transform: uppercase;
+}
+#intro + p {
+    margin-bottom:0px;
+}
+h3 {
+    text-transform:uppercase;
+    margin-top:0px;
+}
+
+/* "Anatomy" should be slightly closer to following paragraph */
+/* following paragraph slighly farther from h5 */
+h4 {
+    margin-bottom:0px;
+}
+h4 + p {
+    margin-bottom:25px;
+}
+
+/* changing "mantle" text to red and bold */
+.important {
+    color:red;
+    font-weight:bold;
+}
+
+/* "external resources" should be slightly closer to following paragraph */
+h6 {
+    margin-bottom:0px;
+}
+
+/* lists should have space between each entry */
+ol > li, ul > li {
+    margin-bottom:7px;
+}
+
+/* quiz section */
+/* style the quiz-selection div*/
+#quiz-section {
+    background: #E5F7FF;
+    border:1px solid #D4DADC;
+    margin-right:15px;
+    padding: 15px;
+}
+
+/* uppercase "octopus quiz" and edit margin */
+#quiz-section > h2 {
+    margin-top:0px;
+    text-transform: uppercase;
+}
+
+/* style octopus img */
+/* add border, float, change position and width */
+#quiz-section > img {
+    border:3px solid #8201E6;
+    float:right;
+    position:relative;
+    top:10px;
+    right:40px;
+    width:75px;
+}
+
+/* add space between inputs */
+input {
+    margin-bottom:5px;
+}
+
+/* species table */
+/* change margin of header */
+#species-table > h2{
+    margin-bottom:0px;
+}
+
+/* change color and background */
+th {
+    background:#999999;
+    color:#FFFFFF;
+}
+
+/* add padding and change text-align to left */
+th, td {
+    text-align:left;
+    padding:5px;
+}
+
+/* footer styling */
+#footer {
+    margin-top:25px;
+    margin-bottom:25px;
+    background:#CCCCCC;
+    padding:2px;
+    text-align:center;
+}
